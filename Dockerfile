@@ -1,5 +1,5 @@
 # -*- sh -*-
-FROM fcat/ubuntu-universe:12.04
+FROM busybox
 
 # development tools
 RUN apt-get -qy install git vim tmux
